@@ -386,9 +386,9 @@ footer{
 }
 
 @media (max-width: 650px) {
-    .headphone__title{
-        top: -40px;
-    }
+        .headphone__title{
+            top: -40px;
+        }
     .devices__headphone--img{
         top: -40px;
     }
