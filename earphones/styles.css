@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 336px;
+    background: #000;
+    padding-top: 40px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #FFFFFF;
+    /* position: fixed; */
+    z-index: 300;
+    /* background-color: #000; */
+
+}
+.nav-lists{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}   
+.nav-lists a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+}    
+.logo img{
+    width: 143px;
+    cursor: pointer;
+}
+.fa-cart-shopping{
+    font-size: 25px;
+    color: #fff;
+}
+.white-line{
+    width: 100%;
+    opacity: 0.2;
+    height: 1px;
+    background: #fff;
+    margin-top: 30px;
+}
+.headphones-title{
+    width: 100%;
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+}
+main{
+    width: 100%;
+}
+.first-part{
+    display: flex;
+    justify-content: space-between; 
+}
+.xx99-left{
+    width: 50%;
+    height: 560px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 130px;
+    border-radius: 8px;
+}
+.xx99-left img{
+    width: 60%;
+    object-fit: contain;
+}
+.xx99-right{
+    width: 40%;
+    margin-left: auto;
+    margin-top: 230px;
+}
+.new-product{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    color: #D87D4A;
+}
+.headphone-mark{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 15px 0;
+    margin-bottom: 25px;
+}
+.headphone-mark__description{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    opacity: 0.5;
+}
+.see-product-btn{
+    width: 160px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #D87D4A;
+    border: none;
+    color: #fff;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.second-part{
+    flex-direction: row-reverse;
+}
+.xx99-right2{
+    margin-right: auto;
+    margin-left: 0;
+}
+#x99-img{
+    width: 50%;
+    object-fit: contain;
+}
+.devices{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.devices__headphone{
+    width: 30%;
+    height: 200px;
+    background-color: #f1f1f1;
+    text-align: center;
+    position: relative;
+    border-radius: 8px; 
+}
+.devices__headphone--img{
+    position: absolute;
+    width: 40%;
+    object-fit: contain;
+    top: -90px;
+    left: 32%;
+}
+.headphone__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 125px;
+}
+.shop-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.shop-btn i{
+    color: #D87D4A;
+    opacity: 1;
+    margin-left: 8px;
+}
+.devices__headphone--img1{
+    top: -70px;
+}
+.audio-gear{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.audio-gear__left{
+    width: 40%;
+    height: 560px;
+    margin-right: auto;
+    margin-top: 20%;
+}
+.audio-gear__title{
+    width: 80%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.audio-gear__title a{
+    text-decoration: none;
+    color: #D87D4A;
+}
+.audio-gear__left p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+.audio-gear__right{
+    width: 50%;
+}
+.audio-gear__right img{
+    width: 100%;
+    height: 560px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+footer{
+    width: 100%;
+    height: 365px;
+    margin-top: 20px;
+    background: #101010;
+    padding-top: 50px;
+    position: relative;
+}
+.footer-wrapper{
+    display: flex; 
+    justify-content: space-between;
+}
+.brown-path{
+    width: 120px;
+    height: 2px;
+    background-color: #D87D4A;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.footer-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer__left{
+    width: 50%;
+    opacity: 0.5;
+}
+.footer__left p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 45px;
+}
+.footer__left span{
+    color: #fff;
+    display: inline-block;
+    margin-top: 60px;
+}
+.footer__right{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer__right i{
+    font-size: 28px;
+    color: #fff;
+}
+
+@media (max-width: 820px) {
+    .nav-lists{
+        width: 340px;
+    }
+    .nav-lists a{
+        font-size: 10px;
+    }
+    .devices__headphone--img{
+        top: -50px;
+    }
+    .devices__headphone{
+        height: 180px;
+    }
+    .headphone__title{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 1150px) {
+    .devices__headphone--img{
+        top: -50px;
+    }
+    .headphone__title{
+        margin-top: 110px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nav-lists{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .first-part {
+        flex-direction: column;
+        margin-top: -20px;
+    }
+    .xx99-left{
+        width: 100%;
+        height: 352px;
+    }
+    .xx99-left img{
+        width: 40%;
+    }
+    .xx99-right{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .headphone-mark__description{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #x99-img{
+        width: 30%;
+    }
+    .headphone__title{
+        margin-top: 80px;
+        font-size: 15px;
+    }
+    .audio-gear{
+        flex-direction: column-reverse;
+        margin-bottom: -200px;
+    }
+    .audio-gear__left{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .audio-gear__right{
+        width: 100%;
+        height: 300px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .audio-gear__right img{
+        height: 300px;
+    }
+    .audio-gear__title{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .audio-gear__left p{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer-text{
+        position: relative;
+    }
+    .footer__left{
+        flex-direction: column;
+    }
+    .footer-wrapper{
+        display: block;
+    }
+    .futer-nav{
+        display: flex;
+        width: 70%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .nav-lists a{
+        font-size: 13px;
+    }
+    .footer__left{
+        width: 100%;
+    }
+    .footer__right{
+        position: absolute;
+        right: 5%;
+        bottom: 3%;
+    }
+}
+
+@media (max-width: 650px) {
+    .headphone__title{
+        top: -40px;
+    }
+    .devices__headphone--img{
+        top: -40px;
+    }
+}
+
+@media(max-width: 625px) {
+    .nav-lists{
+        width: 90%;
+    }
+}
+
+@media(max-width: 550px) {
+    .audio-gear__left{
+        height: 600px;
+    }
+    .footer__left p{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+    .devices__headphone--img{
+        top: -25px;
+    }
+}
+
+@media (max-width: 475px) {
+    header{
+        height: 200px;
+        margin-bottom: -60px;
+    }
+    nav{
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    .headphones-title{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .mark-add{
+        margin-top: 0px;
+    }
+    .new-product{
+        font-size: 15px;
+    }
+    .headphone-mark{
+        font-size: 28px;
+    }
+    .headphone-mark__description{
+        font-size: 16px;
+    }
+    .headphone__title{
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 90px;
+    }
+    .devices{
+        flex-direction: column;
+    }
+    .devices__headphone{
+        width: 100%;
+        height: 180px;
+        margin-bottom: 100px;
+    }
+    .devices__headphone--img{
+        width: 25%;
+        top: -60px;
+        left: 38%;
+    }
+    .devices__headphone--img1{
+        top: -40px;
+    }
+    .audio-gear__right{
+        margin-top: -30px;
+    }
+    footer{
+        margin-top: 120px;
+        height: 654px;
+        text-align: center;
+    }
+    .nav-lists{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .nav-lists a{
+        line-height: 50px;
+        font-size: 15px;
+    }
+    .footer__right{
+        bottom: -85px;
+        left: 40%;
+    }
+}
