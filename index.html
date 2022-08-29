@@ -9,92 +9,111 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <main>
-            <div class="navbar">
+    <main>
+        <div class="container">
+            <nav>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                    <li><a class="menu__item" href="./index.html">HOME</a></li>
+                    <li><a class="menu__item" href="./headphones/headphones.html">HEADPHONE</a></li>
+                    <li><a class="menu__item" href="./speakers/speakers.html">SPEAKERS</a></li>
+                    <li><a class="menu__item" href="./earphones/earphones.html">EARPHONES</a></li>
+                    </ul>
+                </div>
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="./images/logo.png" alt="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo.png" alt="logo">
                     </a>
                 </div>
-                <div class="nav-lists">
-                    <a href="#">
-                        HOME
-                    </a>
-                    <a href="./headphones/headphones.html">
-                        HEADPHONES
-                    </a>
-                    <a href="./speakers/speakers.html">
+                    <div class="nav-lists">
+                        <a class="nav-list-a" href="../index.html">
+                            HOME
+                        </a>
+                        <a class="nav-list-a" href="../headphones/headphones.html">
+                            HEADPHONES
+                        </a>
+                    <a class="nav-list-a" href="../speakers/speakers.html">
                         SPEAKERS
                     </a>
-                    <a href="./earphones/earphones.html">
+                    <a class="nav-list-a" href="../earphones/earphones.html">
                         EARPHONES
                     </a>
                 </div>
-                <a href="#">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                <a href="./checkout/checkout.html">
+                    <i class="fa-solid fa-cart-shopping nav-list-i"></i>
                 </a>
-            </div>
+            </nav>
             <div class="white-line"></div>
             <div class="main-part">
-                <div class="main__left-part">
-                    <div class="main__left-part--title">
+                <div class="left-content">
+                    <div class="left-content__title">
                         NEW PRODUCT
                     </div>
-                    <span>
+                    <div class="left-content__description">
                         XX99 Mark II
                         Headphones
-                    </span>
-                    <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
-                    <button type="button" class="main__left-part--btn">
-                        See Product
-                    </button>
-                </div>
-                <div class="main__right-part">
-                    <img src="./images/main_img.png" alt="bitmap">
+                    </div>
+                    <p>
+                        Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
+                    </p>
+                    <a href="./headphones_one/headphones_one.html">
+                        <button class="product-hover">see product</button>
+                    </a>
                 </div>
             </div>
-            </main>
-        <section>
+        </div>
+    </main>
+    <section>
+        <div class="container">
             <div class="devices">
                 <div class="devices__headphone">
-                    <div class="devices__headphone--content">
-                        <img src="/images/image-removebg-preview(41).png" alt="headphone">
-                        <div class="devices__headphone--title">
-                            HEADPHONES
+                    <a href="./headphones/headphones.html">
+                        <div class="devices__headphone--content">
+                            <img src="/images/image-removebg-preview(41).png" alt="headphone">
+                            <div class="devices__headphone--title">
+                                HEADPHONES
+                            </div>
+                            <div class="devices__shop">
+                                Shop 
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                        <div class="devices__shop">
-                            Shop 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="devices__headphone devices__headphone1">
-                    <div class="devices__headphone--content">
-                        <img src="/images/image-removebg-preview(38).png" alt="speaker">
-                        <div class="devices__headphone--title">
-                            SPEAKERS
+                    <a href="./speakers/speakers.html">
+                        <div class="devices__headphone--content">
+                            <img src="/images/image-removebg-preview(38).png" alt="speaker">
+                            <div class="devices__headphone--title">
+                                SPEAKERS
+                            </div>
+                            <div class="devices__shop">
+                                Shop 
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                        <div class="devices__shop">
-                            Shop 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="devices__headphone">
-                    <div class="devices__headphone--content">
-                        <img src="/images/image-removebg-preview(42).png" alt="earphones">
-                        <div class="devices__headphone--title">
-                            EARPHONES
+                    <a href="./earphones/earphones.html">
+                        <div class="devices__headphone--content">
+                            <img src="/images/image-removebg-preview(42).png" alt="earphones">
+                            <div class="devices__headphone--title">
+                                EARPHONES
+                            </div>
+                            <div class="devices__shop">
+                                Shop 
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                        <div class="devices__shop">
-                            Shop 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
-           
             <div class="zx-speaker">
                 <img src="./images/image-removebg-preview(38) (1).png" alt="speaker">
                 <div class="zx-speaker__right-part">
@@ -105,16 +124,20 @@
                     <p>
                         Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
                     </p>
-                    <button class="zx-speaker__right-part--btn">
-                        See Product
-                    </button>
+                    <a href="./speaker_one/speaker_one.html">
+                        <button class="zx-speaker__right-part--btn hover-grey">
+                            See Product
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="x7speaker">
                 <p>ZX7 SPEAKER</p>
-                <button class="see-btn">
-                    See Product
-                </button>
+                <a href="./speaker_two/speaker_two.html">
+                    <button class="see-btn hover-black">
+                        See Product
+                    </button>
+                </a>
             </div>
             <div class="x1earphones">
                 <img src="./images/Bitmap (1).png" alt="earphone">
@@ -122,69 +145,75 @@
                     <p>
                         YX1 EARPHONES
                     </p>
-                    <button class="see-btn see-btn2">
-                        See Product
-                    </button>
+                    <a href="./earphones_one/earphones_one.html">
+                        <button class="see-btn see-btn2 hover-black">
+                            See Product
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="audio-gear">
-                <div class="audio-gear__left-part">
-                    <div class="audio-gear__left-part--title">
+                <div class="audio-gear__left">
+                    <div class="audio-gear__title">
                         Bringing you the <a>best</a> audio gear
                     </div>
                     <p>
                         Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.
                     </p>
                 </div>
-                <div class="audio-gear__right-part">
-                    <img src="./images/Bitmap (2).png" alt="gear">
+                <div class="audio-gear__right">
+                    <img src="../images/Bitmap (2).png" alt="bitmap">
                 </div>
             </div>
-        </section>
-        <footer>
-            <div class="footer">
-                <div class="nav-footer">
-                    <div class="logo logo1">
-                        <img src="./images/logo.png" alt="logo">
-                    </div>
-                    <div class="nav-lists nav-lists1">
-                        <a href="#">
-                            HOME
-                        </a>
-                        <a href="#">
-                            HEADPHONES
-                        </a>
-                        <a href="#">
-                            SPEAKERS
-                        </a>
-                        <a href="#">
-                            EARPHONES
-                        </a>
-                    </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-wrapper">
+            <div class="brown-path"></div>
+            <a href="./index.html">
+                <div class="logo">
+                    <img src="../images/logo.png" alt="logo">
                 </div>
-                <div class="footer-text">
-                    <div class="footer__left">
-                        <p>
-                            Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
-                        </p>
-                        <span>
-                            Copyright 2021. All Rights Reserved
-                        </span>
-                    </div>
-                    <div class="right-part">
-                        <a href="#">
-                            <i class="fa-brands fa-square-facebook"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </div>
+            </a>
+            <div class="nav-lists futer-nav">
+                <a href="./index.html">
+                    HOME
+                </a>
+                <a href="./headphones/headphones.html">
+                    HEADPHONES
+                </a>
+                <a href="./speakers/speakers.html">
+                    SPEAKERS
+                </a>
+                <a href="earphones/">
+                    EARPHONES
+                </a>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="footer-text">
+                <div class="footer__left">
+                    <p>
+                        Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
+                    </p>
+                    <span>
+                        Copyright 2021. All Rights Reserved
+                    </span>
+                </div>
+                <div class="footer__right">
+                    <a href="#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
