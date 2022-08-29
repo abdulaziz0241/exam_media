@@ -3,7 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -15,24 +16,34 @@
 .product-hover:hover {
     background-color: #FBAF85;
     cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .xx99-right button:hover {
     background-color: #FBAF85;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: #fff;
 }
 .hover-grey:hover {
     background-color: #4c4c4c;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: #fff;
 }
 .nav-list-a:hover {
     color: #D87D4A;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .nav-list-i:hover {
     color: #D87D4A;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .devices__headphone:hover .shop-btn{
@@ -41,14 +52,20 @@
 }
 .nav-lists a:hover {
     color: #D87D4A;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .fa-solid:hover{
     color: #D87D4A;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .fa-brands:hover{
     color: #D87D4A;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -68,13 +85,19 @@ a{
     text-decoration: none;
 }
 nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     padding: 0 10%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80px;
     margin: 0 auto;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     color: #FFFFFF;
     z-index: 300;
     background-color: #000;
@@ -85,8 +108,12 @@ nav{
 }
 .nav-lists{
     width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }   
 .nav-lists a{
     text-decoration: none;
@@ -124,22 +151,33 @@ main{
     width: 100%;
 }
 .first-part{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; 
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
 }
 .xx99-left{
     width: 50%;
     height: 560px;
     background-color: #f1f1f1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;  
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;  
     margin-top: 130px;
     border-radius: 8px;
 }
 .xx99-left img{
     width: 50%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 .xx99-right{
     width: 40%;
@@ -179,7 +217,10 @@ main{
     cursor: pointer;
 }
 .second-part{
-    flex-direction: row-reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
 }
 .xx99-right2{
     margin-right: auto;
@@ -187,12 +228,17 @@ main{
 }
 #x99-img{
     width: 45%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 .devices{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 180px;
 }
 .devices__headphone{
@@ -206,7 +252,8 @@ main{
 .devices__headphone--img{
     position: absolute;
     width: 40%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     top: -90px;
     left: 32%;
 }
@@ -237,9 +284,15 @@ main{
 }
 .audio-gear{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .audio-gear__left{
     width: 40%;
@@ -271,7 +324,8 @@ main{
     width: 100%;
     height: 560px;
     border-radius: 8px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 footer{
     width: 100%;
@@ -282,8 +336,12 @@ footer{
     position: relative;
 }
 .footer-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
-    justify-content: space-between;
+    -webkit-box-pack: justify; 
+        -ms-flex-pack: justify; 
+            justify-content: space-between;
 }
 .brown-path{
     width: 120px;
@@ -294,9 +352,13 @@ footer{
     left: 10%;
 }
 .footer-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     color: #fff;
 }
 .footer__left{
@@ -316,8 +378,12 @@ footer{
 }
 .footer__right{
     width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -331,18 +397,24 @@ footer{
     top: -8px;
 }
 #menu__toggle:checked + .menu__btn > span {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
     
 }
 #menu__toggle:checked + .menu__btn > span::before {
     background-color: #000;
     top: 0;
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
 }
 #menu__toggle:checked + .menu__btn > span::after {
     background-color: #000;
     top: 0;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 #menu__toggle:checked ~ .menu__box {
     left: 0 !important;
@@ -364,7 +436,9 @@ footer{
     width: 100%;
     height: 2px;
     background-color: #fff;
-    transition-duration: .25s;
+    -webkit-transition-duration: .25s;
+         -o-transition-duration: .25s;
+            transition-duration: .25s;
     top: 12px;
 }
 .menu__btn > span::before {
@@ -386,8 +460,11 @@ footer{
     padding: 80px 0;
     list-style: none;
     background-color: #ECEFF1;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-    transition-duration: .35s;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    -webkit-transition-duration: .35s;
+         -o-transition-duration: .35s;
+            transition-duration: .35s;
 }
 .menu__item {
     display: block;
@@ -397,7 +474,9 @@ footer{
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    transition-duration: .25s;
+    -webkit-transition-duration: .25s;
+         -o-transition-duration: .25s;
+            transition-duration: .25s;
 }
 .menu__item:hover {
     background-color: #CFD8DC;
@@ -445,7 +524,10 @@ footer{
         width: 90%;
     }
     .first-part {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: -20px;
     }
     .xx99-left{
@@ -472,7 +554,10 @@ footer{
         font-size: 15px;
     }
     .audio-gear{
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
         margin-bottom: -200px;
     }
     .audio-gear__left{
@@ -502,16 +587,23 @@ footer{
         position: relative;
     }
     .footer__left{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .footer-wrapper{
         display: block;
     }
     .futer-nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 70%;
         margin-top: 20px;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .nav-lists a{
         font-size: 13px;
@@ -585,7 +677,10 @@ footer{
         margin-top: 90px;
     }
     .devices{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .devices__headphone{
         width: 100%;
@@ -610,7 +705,10 @@ footer{
     }
     .nav-lists{
         width: 100%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         text-align: center;
         margin-top: 20px;
     }
